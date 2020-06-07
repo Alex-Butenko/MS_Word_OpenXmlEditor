@@ -2,11 +2,9 @@
 
 namespace OfficeTools {
     public partial class ThisAddIn {
-        void ThisAddIn_Startup(object sender, EventArgs e) {
-        }
+        void ThisAddIn_Startup(object sender, EventArgs e) { }
 
-        void ThisAddIn_Shutdown(object sender, EventArgs e) {
-        }
+        void ThisAddIn_Shutdown(object sender, EventArgs e) { }
 
         #region VSTO generated code
 
