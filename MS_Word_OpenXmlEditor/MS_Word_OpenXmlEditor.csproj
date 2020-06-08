@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <RootNamespace>OfficeTools</RootNamespace>
-    <AssemblyName>MS_Word_OpenXmlDebugger</AssemblyName>
+    <AssemblyName>MS_Word_OpenXmlEditor</AssemblyName>
     <LoadBehavior>3</LoadBehavior>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
@@ -109,7 +109,7 @@
     <EmbeddedResource Include="Ribbon1.resx">
       <DependentUpon>Ribbon1.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="MS_Word_OpenXmlDebugger_TemporaryKey.pfx" />
+    <None Include="MS_Word_OpenXmlEditor_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -150,7 +150,7 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>MS_Word_OpenXmlDebugger_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>MS_Word_OpenXmlEditor_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>B7018DB61D6D6C12AB40FC75D207D0404003E1B3</ManifestCertificateThumbprint>

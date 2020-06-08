@@ -30,7 +30,7 @@
         private void InitializeComponent() {
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
-            this.ButtonOpenXmlDebugger = this.Factory.CreateRibbonButton();
+            this.ButtonOpenXmlEditor = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.group1.SuspendLayout();
             this.SuspendLayout();
@@ -45,17 +45,17 @@
             // 
             // group1
             // 
-            this.group1.Items.Add(this.ButtonOpenXmlDebugger);
+            this.group1.Items.Add(this.ButtonOpenXmlEditor);
             this.group1.Label = "OpenXml";
             this.group1.Name = "group1";
             // 
-            // ButtonOpenXmlDebugger
+            // ButtonOpenXmlEditor
             // 
-            this.ButtonOpenXmlDebugger.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.ButtonOpenXmlDebugger.Label = "Open Xml Debugger";
-            this.ButtonOpenXmlDebugger.Name = "ButtonOpenXmlDebugger";
-            this.ButtonOpenXmlDebugger.ShowImage = true;
-            this.ButtonOpenXmlDebugger.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.ButtonOpenXmlDebugger_Click);
+            this.ButtonOpenXmlEditor.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.ButtonOpenXmlEditor.Label = "Open Xml Editor";
+            this.ButtonOpenXmlEditor.Name = "ButtonOpenXmlEditor";
+            this.ButtonOpenXmlEditor.ShowImage = true;
+            this.ButtonOpenXmlEditor.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.ButtonOpenXmlEditor_Click);
             // 
             // Ribbon1
             // 
@@ -74,7 +74,7 @@
 
         internal Microsoft.Office.Tools.Ribbon.RibbonTab tab1;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
-        internal Microsoft.Office.Tools.Ribbon.RibbonButton ButtonOpenXmlDebugger;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton ButtonOpenXmlEditor;
     }
 
     partial class ThisRibbonCollection {
