@@ -52,6 +52,7 @@
             // ButtonOpenXmlEditor
             // 
             this.ButtonOpenXmlEditor.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.ButtonOpenXmlEditor.Image = global::OfficeTools.Properties.Resources.Logo;
             this.ButtonOpenXmlEditor.Label = "Open Xml Editor";
             this.ButtonOpenXmlEditor.Name = "ButtonOpenXmlEditor";
             this.ButtonOpenXmlEditor.ShowImage = true;

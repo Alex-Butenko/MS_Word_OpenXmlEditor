@@ -8,6 +8,7 @@
         Width="1000"
         Height="700"
         d:DataContext="{d:DesignInstance officeTools:OpenXmlEditModel}"
+        Icon="pack://siteoforigin:,,,/Logo.png"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d">
     <Window.Resources>
@@ -44,8 +45,8 @@
                       Visibility="{Binding IsChecked, ElementName=CheckBoxShowBodyOnly, Converter={StaticResource BoolToVisibilityConverter}}" />
         </WrapPanel>
         <TextBox AcceptsReturn="True"
-        FontFamily="Courier New"
                  AcceptsTab="True"
+                 FontFamily="Courier New"
                  FontSize="15"
                  HorizontalScrollBarVisibility="Auto"
                  Text="{Binding Xml}"
